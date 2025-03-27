@@ -5,6 +5,9 @@ string = input("Please input your string with upper and lower case letters here:
 for character in string:
     if 'A' <= character <= 'Z':
         print(chr(ord(character) + 32))
-# Do the same for every lowercase letters turn into uppercase
+    # Do the same for every lowercase letters turn into uppercase
+    elif 'a' <= character <= 'z':
+        print(chr(ord(character) - 32))
+        
 # Non alphabetical characters should remain unchanged
 # Print the output
