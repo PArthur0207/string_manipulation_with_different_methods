@@ -8,6 +8,8 @@ for character in string:
     # Do the same for every lowercase letters turn into uppercase
     elif 'a' <= character <= 'z':
         print(chr(ord(character) - 32))
-        
-# Non alphabetical characters should remain unchanged
+    # Non alphabetical characters should remain unchanged
+    else:
+        print(character)
+
 # Print the output
