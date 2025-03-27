@@ -10,3 +10,5 @@ if len(string) > width:
     print(string)
 
 # If the width is longer then pad the spaces on the right using the inputted fill (Reads only the 0th index)
+else:
+    print(string + (filler[0] * (width - len(string))))
