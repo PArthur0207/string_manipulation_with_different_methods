@@ -3,7 +3,7 @@ string = input("Please enter a string with capital letters: ")
 # Check every character in the string if it is a capital letter
 for character in string:
     if 'A' <= character <= 'Z':
+        character = chr(ord(character) + 32) # Convert to lowercase using the ASCII
         print(character)
 
-# Convert to lowercase using the ASCII
 # Print the result with all lowercase
