@@ -11,5 +11,5 @@ else:
     total_padding = width - len(string)
     left_padding = total_padding // 2
     right_padding = total_padding - left_padding
-
-# Print the output when centered
+    # Print the output when centered
+    print(' ' * left_padding + string + ' ' * right_padding)
