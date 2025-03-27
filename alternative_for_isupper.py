@@ -10,3 +10,4 @@ for character in string:
         all_upper = True
 
 # Print the results
+print(f"isupper = {all_upper}")
