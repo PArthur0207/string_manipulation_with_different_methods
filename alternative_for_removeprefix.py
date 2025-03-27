@@ -4,7 +4,6 @@ prefix = input("Please input the prfix to be removed from the string: ")
 
 # Check if the start of the string matches with the prefix
 if string[:len(prefix)] == prefix:
-    print("The prefix is in the string")
+    print(string[len(prefix):]) # Print the string with the prefix removed if it matches
 else:
-    print("The prefix is not in the string")
-# Print the string with the prefix removed if it matches, print the string without change if it does not
+    print(string) # Print the string without change if it does not
