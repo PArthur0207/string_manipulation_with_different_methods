@@ -6,3 +6,4 @@ while string and string[-1] == " ":
     string = string[:-1]
     
 # Print the result  
+print(string + ' end') # Add 'end' at the end to see that the spaces are goone at the end
