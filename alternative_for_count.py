@@ -3,5 +3,8 @@ string = input("Please input your string here: ")
 parameter = input("Please input the parameters to be found in the string here: ")
 
 # Loop accross the string to find the parameter
+for i in range(len(string) - len(parameter) + 1):
+    print(i)
+  
 # Count the number of times it is found in the string
 # Print the results
