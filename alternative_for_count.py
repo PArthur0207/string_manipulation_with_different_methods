@@ -11,3 +11,4 @@ for i in range(len(string) - len(parameter) + 1):
         count += 1
 
 # Print the results
+print(f"The parameter: {parameter}, has been found {count} times.")
